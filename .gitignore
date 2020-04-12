@@ -6,11 +6,17 @@ __pycache__/
 # C extensions
 *.so
 
+.DS_Store
+.idea/
+src/build/
+src/dist/
+src/config.ini
+
 # Distribution / packaging
 .Python
-build/
+crypto_tracker/build/
 develop-eggs/
-dist/
+crypto_tracker/dist/
 downloads/
 eggs/
 .eggs/
@@ -104,9 +110,9 @@ celerybeat.pid
 # Environments
 .env
 .venv
-env/
+crypto_tracker/env/
 venv/
-ENV/
+crypto_tracker/env/
 env.bak/
 venv.bak/
 
